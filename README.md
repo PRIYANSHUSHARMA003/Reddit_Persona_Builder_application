@@ -1,10 +1,6 @@
 # Reddit_Persona_Builder_application
 
-# 🧠 Reddit User Persona Builder
-
-This is a Python project that generates a basic **user persona** by analyzing a Reddit user’s recent **posts** and **comments**.
-
-It scrapes a Reddit profile, identifies interests and communication patterns, and saves the result to a `.txt` file with citation links.
+This is a Python-based Reddit User Persona Builder project that combines web scraping (via the Reddit API), text extraction, and light rule-based NLP to generate a profile of any public Reddit user. The project uses a virtual environment to manage dependencies and a .env file to securely store Reddit API keys. Output personas are saved as .txt files in the outputs/ folder, including citations for every characteristic extracted. While no LLMs are used currently, the project is easily extensible to incorporate GPT-based summarization or persona synthesis.
 
 ---
 
